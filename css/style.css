@@ -1,0 +1,44 @@
+body{
+	font-family: 'BioRhyme', serif;
+}
+
+/*.social-icons ul li a::after {
+    content: "";
+    display: block;
+    margin: -29px 0 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cdcdcd;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}*/
+
+.social-icons ul li{
+	margin-bottom: 5px;
+}
+
+.social-icons ul li a{
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.overlay:after {
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:rgba(255,255,255,.2);
+}
+
+.profile-avartar > img{
+	border: 2px solid #d7d7d7;
+	border-radius: 50%;
+}
